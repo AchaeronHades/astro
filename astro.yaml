@@ -459,183 +459,762 @@ globals:
 
 image:
   # ANSWERING FRAMES (0-12)
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_00.png", id: answering_frame_00, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_01.png", id: answering_frame_01, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_02.png", id: answering_frame_02, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_03.png", id: answering_frame_03, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_04.png", id: answering_frame_04, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_05.png", id: answering_frame_05, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_06.png", id: answering_frame_06, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_07.png", id: answering_frame_07, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_08.png", id: answering_frame_08, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_09.png", id: answering_frame_09, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_10.png", id: answering_frame_10, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_11.png", id: answering_frame_11, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/answering_frame_12.png", id: answering_frame_12, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_00.png"
+    id: answering_frame_00
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_01.png"
+    id: answering_frame_01
+    resize: 240x240
+    type: RGB
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_02.png"
+    id: answering_frame_02
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_03.png"
+    id: answering_frame_03
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_04.png"
+    id: answering_frame_04
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_05.png"
+    id: answering_frame_05
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_06.png"
+    id: answering_frame_06
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_07.png"
+    id: answering_frame_07
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_08.png"
+    id: answering_frame_08
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_09.png"
+    id: answering_frame_09
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_10.png"
+    id: answering_frame_10
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_11.png"
+    id: answering_frame_11
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/answering_frame_12.png"
+    id: answering_frame_12
+    resize: 240x240
+    type: RGB
+ 
   # ERROR FRAMES (0-12)
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_00.png", id: error_frame_00, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_01.png", id: error_frame_01, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_02.png", id: error_frame_02, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_03.png", id: error_frame_03, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_04.png", id: error_frame_04, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_05.png", id: error_frame_05, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_06.png", id: error_frame_06, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_07.png", id: error_frame_07, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_08.png", id: error_frame_08, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_09.png", id: error_frame_09, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_10.png", id: error_frame_10, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_11.png", id: error_frame_11, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/error_frame_12.png", id: error_frame_12, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_00.png"
+    id: error_frame_00
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_01.png"
+    id: error_frame_01
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_02.png"
+    id: error_frame_02
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_03.png"
+    id: error_frame_03
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_04.png"
+    id: error_frame_04
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_05.png"
+    id: error_frame_05
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_06.png"
+    id: error_frame_06
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_07.png"
+    id: error_frame_07
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_08.png"
+    id: error_frame_08
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_09.png"
+    id: error_frame_09
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_10.png"
+    id: error_frame_10
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_11.png"
+    id: error_frame_11
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/error_frame_12.png"
+    id: error_frame_12
+    resize: 240x240
+    type: RGB
+ 
   # IDLE FRAMES (0-70)
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_00.png", id: idle_frame_00, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_01.png", id: idle_frame_01, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_02.png", id: idle_frame_02, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_03.png", id: idle_frame_03, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_04.png", id: idle_frame_04, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_05.png", id: idle_frame_05, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_06.png", id: idle_frame_06, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_07.png", id: idle_frame_07, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_08.png", id: idle_frame_08, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_09.png", id: idle_frame_09, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_10.png", id: idle_frame_10, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_11.png", id: idle_frame_11, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_12.png", id: idle_frame_12, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_13.png", id: idle_frame_13, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_14.png", id: idle_frame_14, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_15.png", id: idle_frame_15, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_16.png", id: idle_frame_16, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_17.png", id: idle_frame_17, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_18.png", id: idle_frame_18, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_19.png", id: idle_frame_19, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_20.png", id: idle_frame_20, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_21.png", id: idle_frame_21, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_22.png", id: idle_frame_22, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_23.png", id: idle_frame_23, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_24.png", id: idle_frame_24, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_25.png", id: idle_frame_25, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_26.png", id: idle_frame_26, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_27.png", id: idle_frame_27, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_28.png", id: idle_frame_28, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_29.png", id: idle_frame_29, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_30.png", id: idle_frame_30, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_31.png", id: idle_frame_31, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_32.png", id: idle_frame_32, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_33.png", id: idle_frame_33, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_34.png", id: idle_frame_34, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_35.png", id: idle_frame_35, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_36.png", id: idle_frame_36, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_37.png", id: idle_frame_37, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_38.png", id: idle_frame_38, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_39.png", id: idle_frame_39, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_40.png", id: idle_frame_40, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_41.png", id: idle_frame_41, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_42.png", id: idle_frame_42, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_43.png", id: idle_frame_43, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_44.png", id: idle_frame_44, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_45.png", id: idle_frame_45, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_46.png", id: idle_frame_46, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_47.png", id: idle_frame_47, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_48.png", id: idle_frame_48, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_49.png", id: idle_frame_49, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_50.png", id: idle_frame_50, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_51.png", id: idle_frame_51, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_52.png", id: idle_frame_52, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_53.png", id: idle_frame_53, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_54.png", id: idle_frame_54, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_55.png", id: idle_frame_55, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_56.png", id: idle_frame_56, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_57.png", id: idle_frame_57, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_58.png", id: idle_frame_58, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_59.png", id: idle_frame_59, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_60.png", id: idle_frame_60, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_61.png", id: idle_frame_61, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_62.png", id: idle_frame_62, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_63.png", id: idle_frame_63, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_64.png", id: idle_frame_64, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_65.png", id: idle_frame_65, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_66.png", id: idle_frame_66, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_67.png", id: idle_frame_67, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_68.png", id: idle_frame_68, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_69.png", id: idle_frame_69, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/idle_frame_70.png", id: idle_frame_70, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_00.png"
+    id: idle_frame_00
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_01.png"
+    id: idle_frame_01
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_02.png"
+    id: idle_frame_02
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_03.png"
+    id: idle_frame_03
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_04.png"
+    id: idle_frame_04
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_05.png"
+    id: idle_frame_05
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_06.png"
+    id: idle_frame_06
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_07.png"
+    id: idle_frame_07
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_08.png"
+    id: idle_frame_08
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_09.png"
+    id: idle_frame_09
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_10.png"
+    id: idle_frame_10
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_11.png"
+    id: idle_frame_11
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_12.png"
+    id: idle_frame_12
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_13.png"
+    id: idle_frame_13
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_14.png"
+    id: idle_frame_14
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_15.png"
+    id: idle_frame_15
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_16.png"
+    id: idle_frame_16
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_17.png"
+    id: idle_frame_17
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_18.png"
+    id: idle_frame_18
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_19.png"
+    id: idle_frame_19
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_20.png"
+    id: idle_frame_20
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_21.png"
+    id: idle_frame_21
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_22.png"
+    id: idle_frame_22
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_23.png"
+    id: idle_frame_23
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_24.png"
+    id: idle_frame_24
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_25.png"
+    id: idle_frame_25
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_26.png"
+    id: idle_frame_26
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_27.png"
+    id: idle_frame_27
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_28.png"
+    id: idle_frame_28
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_29.png"
+    id: idle_frame_29
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_30.png"
+    id: idle_frame_30
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_31.png"
+    id: idle_frame_31
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_32.png"
+    id: idle_frame_32
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_33.png"
+    id: idle_frame_33
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_34.png"
+    id: idle_frame_34
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_35.png"
+    id: idle_frame_35
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_36.png"
+    id: idle_frame_36
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_37.png"
+    id: idle_frame_37
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_38.png"
+    id: idle_frame_38
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_39.png"
+    id: idle_frame_39
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_40.png"
+    id: idle_frame_40
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_41.png"
+    id: idle_frame_41
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_42.png"
+    id: idle_frame_42
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_43.png"
+    id: idle_frame_43
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_44.png"
+    id: idle_frame_44
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_45.png"
+    id: idle_frame_45
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_46.png"
+    id: idle_frame_46
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_47.png"
+    id: idle_frame_47
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_48.png"
+    id: idle_frame_48
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_49.png"
+    id: idle_frame_49
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_50.png"
+    id: idle_frame_50
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_51.png"
+    id: idle_frame_51
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_52.png"
+    id: idle_frame_52
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_53.png"
+    id: idle_frame_53
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_54.png"
+    id: idle_frame_54
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_55.png"
+    id: idle_frame_55
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_56.png"
+    id: idle_frame_56
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_57.png"
+    id: idle_frame_57
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_58.png"
+    id: idle_frame_58
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_59.png"
+    id: idle_frame_59
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_60.png"
+    id: idle_frame_60
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_61.png"
+    id: idle_frame_61
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_62.png"
+    id: idle_frame_62
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_63.png"
+    id: idle_frame_63
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_64.png"
+    id: idle_frame_64
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_65.png"
+    id: idle_frame_65
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_66.png"
+    id: idle_frame_66
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_67.png"
+    id: idle_frame_67
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_68.png"
+    id: idle_frame_68
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_69.png"
+    id: idle_frame_69
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/idle_frame_70.png"
+    id: idle_frame_70
+    resize: 240x240
+    type: RGB
+ 
   # LISTENING FRAMES (0-12)
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_00.png", id: listening_frame_00, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_01.png", id: listening_frame_01, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_02.png", id: listening_frame_02, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_03.png", id: listening_frame_03, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_04.png", id: listening_frame_04, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_05.png", id: listening_frame_05, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_06.png", id: listening_frame_06, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_07.png", id: listening_frame_07, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_08.png", id: listening_frame_08, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_09.png", id: listening_frame_09, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_10.png", id: listening_frame_10, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_11.png", id: listening_frame_11, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/listening_frame_12.png", id: listening_frame_12, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_00.png"
+    id: listening_frame_00
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_01.png"
+    id: listening_frame_01
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_02.png"
+    id: listening_frame_02
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_03.png"
+    id: listening_frame_03
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_04.png"
+    id: listening_frame_04
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_05.png"
+    id: listening_frame_05
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_06.png"
+    id: listening_frame_06
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_07.png"
+    id: listening_frame_07
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_08.png"
+    id: listening_frame_08
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_09.png"
+    id: listening_frame_09
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_10.png"
+    id: listening_frame_10
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_11.png"
+    id: listening_frame_11
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/listening_frame_12.png"
+    id: listening_frame_12
+    resize: 240x240
+    type: RGB
+ 
   # THINKING FRAMES (0-32)
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_00.png", id: thinking_frame_00, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_01.png", id: thinking_frame_01, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_02.png", id: thinking_frame_02, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_03.png", id: thinking_frame_03, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_04.png", id: thinking_frame_04, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_05.png", id: thinking_frame_05, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_06.png", id: thinking_frame_06, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_07.png", id: thinking_frame_07, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_08.png", id: thinking_frame_08, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_09.png", id: thinking_frame_09, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_10.png", id: thinking_frame_10, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_11.png", id: thinking_frame_11, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_12.png", id: thinking_frame_12, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_13.png", id: thinking_frame_13, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_14.png", id: thinking_frame_14, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_15.png", id: thinking_frame_15, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_16.png", id: thinking_frame_16, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_17.png", id: thinking_frame_17, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_18.png", id: thinking_frame_18, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_19.png", id: thinking_frame_19, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_20.png", id: thinking_frame_20, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_21.png", id: thinking_frame_21, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_22.png", id: thinking_frame_22, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_23.png", id: thinking_frame_23, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_24.png", id: thinking_frame_24, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_25.png", id: thinking_frame_25, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_26.png", id: thinking_frame_26, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_27.png", id: thinking_frame_27, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_28.png", id: thinking_frame_28, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_29.png", id: thinking_frame_29, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_30.png", id: thinking_frame_30, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_31.png", id: thinking_frame_31, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-  - { file: "https://raw.githubusercontent.com/AchaeronHades/astro/refs/heads/main/thinking_frame_32.png", id: thinking_frame_32, resize: 240x240, type: RGB565_REVERSE, use_cache: false }
-
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_00.png"
+    id: thinking_frame_00
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_01.png"
+    id: thinking_frame_01
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_02.png"
+    id: thinking_frame_02
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_03.png"
+    id: thinking_frame_03
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_04.png"
+    id: thinking_frame_04
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_05.png"
+    id: thinking_frame_05
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_06.png"
+    id: thinking_frame_06
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_07.png"
+    id: thinking_frame_07
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_08.png"
+    id: thinking_frame_08
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_09.png"
+    id: thinking_frame_09
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_10.png"
+    id: thinking_frame_10
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_11.png"
+    id: thinking_frame_11
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_12.png"
+    id: thinking_frame_12
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_13.png"
+    id: thinking_frame_13
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_14.png"
+    id: thinking_frame_14
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_15.png"
+    id: thinking_frame_15
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_16.png"
+    id: thinking_frame_16
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_17.png"
+    id: thinking_frame_17
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_18.png"
+    id: thinking_frame_18
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_19.png"
+    id: thinking_frame_19
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_20.png"
+    id: thinking_frame_20
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_21.png"
+    id: thinking_frame_21
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_22.png"
+    id: thinking_frame_22
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_23.png"
+    id: thinking_frame_23
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_24.png"
+    id: thinking_frame_24
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_25.png"
+    id: thinking_frame_25
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_26.png"
+    id: thinking_frame_26
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_27.png"
+    id: thinking_frame_27
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_28.png"
+    id: thinking_frame_28
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_29.png"
+    id: thinking_frame_29
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_30.png"
+    id: thinking_frame_30
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_31.png"
+    id: thinking_frame_31
+    resize: 240x240
+    type: RGB
+ 
+  - file: "https://raw.githubusercontent.com/AchaeronHades/astro/main/thinking_frame_32.png"
+    id: thinking_frame_32
+    resize: 240x240
+    type: RGB
+ 
   # Static images for connection errors
   - file: https://github.com/esphome/wake-word-voice-assistants/raw/main/error_box_illustrations/error-no-wifi.png
     id: error_no_wifi
     resize: 240x240
-    type: RGB565_REVERSE
-    use_cache: false
+    type: RGB
+ 
   - file: https://github.com/esphome/wake-word-voice-assistants/raw/main/error_box_illustrations/error-no-ha.png
     id: error_no_ha
     resize: 240x240
-    type: RGB565_REVERSE
-    use_cache: false
+    type: RGB
+ 
 
 font:
-  - file: { type: gfonts, family: ${font_family}, weight: 300, italic: true }
+  - file:
+      type: gfonts
+      family: ${font_family}
+      weight: 300
+      italic: true
     id: font_request
     size: 15
-    glyphsets: [ ${font_glyphsets} ]
-  - file: { type: gfonts, family: ${font_family}, weight: 300 }
+    glyphsets:
+      - ${font_glyphsets}
+  - file:
+      type: gfonts
+      family: ${font_family}
+      weight: 300
     id: font_response
     size: 15
-    glyphsets: [ ${font_glyphsets} ]
-  - file: { type: gfonts, family: ${font_family}, weight: 300 }
+    glyphsets:
+      - ${font_glyphsets}
+  - file:
+      type: gfonts
+      family: ${font_family}
+      weight: 300
     id: font_timer
     size: 30
-    glyphsets: [ ${font_glyphsets} ]
+    glyphsets:
+      - ${font_glyphsets}
 
 text_sensor:
   - id: text_request
@@ -658,14 +1237,22 @@ text_sensor:
         }
 
 color:
-  - { id: idle_color, hex: ${idle_illustration_background_color} }
-  - { id: listening_color, hex: ${listening_illustration_background_color} }
-  - { id: thinking_color, hex: ${thinking_illustration_background_color} }
-  - { id: replying_color, hex: ${replying_illustration_background_color} }
-  - { id: loading_color, hex: ${loading_illustration_background_color} }
-  - { id: error_color, hex: ${error_illustration_background_color} }
-  - { id: active_timer_color, hex: "26ed3a" }
-  - { id: paused_timer_color, hex: "3b89e3" }
+  - id: idle_color
+    hex: ${idle_illustration_background_color}
+  - id: listening_color
+    hex: ${listening_illustration_background_color}
+  - id: thinking_color
+    hex: ${thinking_illustration_background_color}
+  - id: replying_color
+    hex: ${replying_illustration_background_color}
+  - id: loading_color
+    hex: ${loading_illustration_background_color}
+  - id: error_color
+    hex: ${error_illustration_background_color}
+  - id: active_timer_color
+    hex: "26ed3a"
+  - id: paused_timer_color
+    hex: "3b89e3"
 
 spi:
   - id: spi_bus
@@ -686,45 +1273,8 @@ display:
     dimensions:
         height: 240
         width: 240
-    # The 'pages:' block has been removed, as LVGL is now handling the display
 
-lvgl:
-  id: my_lvgl
-  display: s3_box_lcd
-  drawing_mode: full
-  color_depth: 16
-  widgets:
-    - type: animimg
-      id: answering_animation
-      images: [ id(answering_frame_00), id(answering_frame_01), id(answering_frame_02), id(answering_frame_03), id(answering_frame_04), id(answering_frame_05), id(answering_frame_06), id(answering_frame_07), id(answering_frame_08), id(answering_frame_09), id(answering_frame_10), id(answering_frame_11), id(answering_frame_12) ]
-      duration: 500
-      repeat_count: 0
-    - type: animimg
-      id: error_animation
-      images: [ id(error_frame_00), id(error_frame_01), id(error_frame_02), id(error_frame_03), id(error_frame_04), id(error_frame_05), id(error_frame_06), id(error_frame_07), id(error_frame_08), id(error_frame_09), id(error_frame_10), id(error_frame_11), id(error_frame_12) ]
-      duration: 500
-      repeat_count: 0
-    - type: animimg
-      id: idle_animation
-      images: [ id(idle_frame_00), id(idle_frame_01), id(idle_frame_02), id(idle_frame_03), id(idle_frame_04), id(idle_frame_05), id(idle_frame_06), id(idle_frame_07), id(idle_frame_08), id(idle_frame_09), id(idle_frame_10), id(idle_frame_11), id(idle_frame_12), id(idle_frame_13), id(idle_frame_14), id(idle_frame_15), id(idle_frame_16), id(idle_frame_17), id(idle_frame_18), id(idle_frame_19), id(idle_frame_20), id(idle_frame_21), id(idle_frame_22), id(idle_frame_23), id(idle_frame_24), id(idle_frame_25), id(idle_frame_26), id(idle_frame_27), id(idle_frame_28), id(idle_frame_29), id(idle_frame_30), id(idle_frame_31), id(idle_frame_32), id(idle_frame_33), id(idle_frame_34), id(idle_frame_35), id(idle_frame_36), id(idle_frame_37), id(idle_frame_38), id(idle_frame_39), id(idle_frame_40), id(idle_frame_41), id(idle_frame_42), id(idle_frame_43), id(idle_frame_44), id(idle_frame_45), id(idle_frame_46), id(idle_frame_47), id(idle_frame_48), id(idle_frame_49), id(idle_frame_50), id(idle_frame_51), id(idle_frame_52), id(idle_frame_53), id(idle_frame_54), id(idle_frame_55), id(idle_frame_56), id(idle_frame_57), id(idle_frame_58), id(idle_frame_59), id(idle_frame_60), id(idle_frame_61), id(idle_frame_62), id(idle_frame_63), id(idle_frame_64), id(idle_frame_65), id(idle_frame_66), id(idle_frame_67), id(idle_frame_68), id(idle_frame_69), id(idle_frame_70) ]
-      duration: 3000
-      repeat_count: 0
-    - type: animimg
-      id: listening_animation
-      images: [ id(listening_frame_00), id(listening_frame_01), id(listening_frame_02), id(listening_frame_03), id(listening_frame_04), id(listening_frame_05), id(listening_frame_06), id(listening_frame_07), id(listening_frame_08), id(listening_frame_09), id(listening_frame_10), id(listening_frame_11), id(listening_frame_12) ]
-      duration: 500
-      repeat_count: 0
-    - type: animimg
-      id: thinking_animation
-      images: [ id(thinking_frame_00), id(thinking_frame_01), id(thinking_frame_02), id(thinking_frame_03), id(thinking_frame_04), id(thinking_frame_05), id(thinking_frame_06), id(thinking_frame_07), id(thinking_frame_08), id(thinking_frame_09), id(thinking_frame_10), id(thinking_frame_11), id(thinking_frame_12), id(thinking_frame_13), id(thinking_frame_14), id(thinking_frame_15), id(thinking_frame_16), id(thinking_frame_17), id(thinking_frame_18), id(thinking_frame_19), id(thinking_frame_20), id(thinking_frame_21), id(thinking_frame_22), id(thinking_frame_23), id(thinking_frame_24), id(thinking_frame_25), id(thinking_frame_26), id(thinking_frame_27), id(thinking_frame_28), id(thinking_frame_29), id(thinking_frame_30), id(thinking_frame_31), id(thinking_frame_32) ]
-      duration: 1500
-      repeat_count: 0
-    - type: img
-      id: no_wifi_widget
-      images: [ { id: error_no_wifi } ]
-    - type: img
-      id: no_ha_widget
-      images: [ { id: error_no_ha } ]
+
 
 script:
   # This helper script hides all animation/image widgets
