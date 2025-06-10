@@ -71,7 +71,7 @@ psram:
 
 api:
   encryption:
-    key: "/t9W06L3D/b+/lcscdGorBd1ws2Gm/Sf6dAjiR8FKW4="
+    key: YOURAPIKEY
   on_client_connected:
     - script.execute: draw_display
   on_client_disconnected:
@@ -79,7 +79,7 @@ api:
 
 ota:
   - platform: esphome
-    password: "8d87325c344987228f7c5be6f5566f6c"
+    password: YOUROTAPW
     id: ota_esphome
 
 logger:
@@ -89,7 +89,7 @@ wifi:
   password: !secret wifi_password
   ap:
     ssid: "Astro Fallback Hotspot"
-    password: "6AcG9PHOhxBw"
+    password: YOURFBHS
   on_connect:
     - script.execute: draw_display
   on_disconnect:
